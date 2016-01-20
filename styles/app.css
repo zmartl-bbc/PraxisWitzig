@@ -1,0 +1,191 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif, Calibri, Arial;
+}
+
+header {
+	height: 550px;
+}
+
+nav {
+	width: 75%;
+	background-color: #01003B;
+	height: 35px;
+	padding-top: 15px;
+	margin: 0 auto;
+	margin-top: -440px;
+	border-radius: 5px;
+	z-index: -1;
+}
+
+nav ul li {
+	float: left;
+	width: 14%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	color: #EDECF0;
+	text-shadow: 2px 2px 2px gray;
+}
+
+#active {
+	color: #EDECF0;
+	text-shadow: 2px 2px 2px gray;
+}
+
+nav ul li a, nav ul li p {
+	text-decoration: none;
+	color: #BDBCBF;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#banner {
+	height: 550px;
+	width: 100%;
+	margin-top: -5%;
+}
+
+#banner img {
+	position: absolute;
+	z-index: -5;
+}
+
+#container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.articleround {
+	width: 80%;
+	margin: 0 auto;
+	height: 500px;
+}
+
+.articlespecial {
+	width: 26.6%;
+	height: 500px;
+	margin: 45px 20px;
+	float: left;
+}
+
+.articlespecial .articleimg {
+	padding-top: 45px;
+	margin: 0 auto;
+	width: 150px;
+}
+
+.articlespecial .articleimg img {
+	width: 150px;
+	height: 150px;
+}
+
+.articlespecial h2 {
+	width: 75%;
+	text-align: center; margin : 0 auto;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.articlep {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	margin: 0;
+}
+
+.button {
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	border-radius: 10px;
+	background-color: #E8E7EB;
+	height: 35px;
+	border: 1px solid #CCCBCF;
+	padding-top: 10px;
+	margin: 10px auto;
+	color: #818082;
+}
+
+.float {
+	float: none;
+	clear: both;
+}
+
+footer {
+	background-color: #01003B;
+}
+
+#footercontainer {
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+	height: 250px;
+	padding-top: 25px;
+}
+
+#footerleft {
+	width: 20%;
+	float: left;
+}
+
+#footercenter {
+	width: 40%;
+	float: left;
+}
+
+#footerleft ul li {
+	list-style-type: none;
+}
+
+#footerleft ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+#footerright {
+	width: 40%;
+	float: right;
+}
+
+footer div a {
+	color: white;
+	text-decoration: none;
+}
+
+footer #copy a:hover {
+	text-shadow: 2px 2px 2px gray;
+}
+
+footer #copy {
+	width: 100%;
+	border-top: 1px solid #BDBCBF;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+.articlerow {
+	margin: 25px;
+	height: 450px;
+	border-bottom: 2px solid #BDBCBF;
+}
+
+.articlerow .left {
+	width: 400px;
+	height: 400px;
+	float: left;
+	padding: 0 12px;
+	margin: 0;
+}
+
+.articlerow .right {
+	width: 400px;
+	height: 400px;
+	float: left;
+	padding: 0 12px;
+	margin: 0;
+}
