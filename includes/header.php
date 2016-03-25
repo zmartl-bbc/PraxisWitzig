@@ -8,7 +8,7 @@
 				<a href="index.php">Home</a>
 			</div>
 			<div class="navigationItem">
-				<a href="#">Angebot</a>
+				<a href="services.php">Angebot</a>
 			</div>
 			<div class="navigationItem">
 				<a href="#">Lageplan</a>

@@ -14,8 +14,8 @@
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="offer.php">Angebot</a></li>
-				<li><a href="map.php">Lageplan</a></li>
+				<li><a href="services.php">Angebot</a></li>
+				<li><a href="location.php">Lageplan</a></li>
 				<li><a href="team.php">Team</a></li>
 				<li><a href="links.php">Links</a></li>
 				<li><a href="open.php">&Ouml;ffnungszeiten</a></li>

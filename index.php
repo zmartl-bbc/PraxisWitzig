@@ -39,7 +39,7 @@
 				<div class="fill"
 					style="background-image: url('images/banner/test.jpg');"></div>
 				<div class="carousel-caption">
-					<h2>Familienplanung oder Schwangerschaftsverh&uuml;tung</h2>
+					<h2>Familienplanung</h2>
 				</div>
 			</div>
 			<div class="item">
@@ -110,9 +110,14 @@
 				<h2 class="page-header">Konakt</h2>
 			</div>
 			<div class="col-md-6">
-				<h3>
-					<i class="fa fa-phone"></i> Telefon:
-				</h3>
+				<h3>Telefon:</h3>
+				<div class="row">
+					<div class="col-md-12">
+						<h4>
+							<i class="fa fa-phone"></i> 044 941 60 20
+						</h4>
+					</div>
+				</div>
 				<div class="col-md-12">
 					<h2>
 						<small>Montag, Dienstag, Mittwoch</small>
