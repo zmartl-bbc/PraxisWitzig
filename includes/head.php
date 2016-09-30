@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="styles/app.css" type="text/css" />
 <link rel="shortcut icon" href="images/favoicon/favicon.ico"
 	type="image/x-icon" />
-<!-- Text einfüllen -->
+<!-- Text einfï¿½llen -->
 <meta name="description" content="" />
 <meta name="geo.position" content="47.3526412;8.722885799999972" />
 <meta name="geo.region" content="CH-ZRH" />
@@ -15,5 +15,6 @@
 	rel='stylesheet' type='text/css'>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <title>Praxis Witzig</title>
 </head>

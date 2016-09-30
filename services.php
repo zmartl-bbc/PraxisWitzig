@@ -1,3 +1,6 @@
+<?php
+$page_title = "Angebot";
+?>
 <!DOCTYPE html>
 <html lang="de">
 
@@ -28,18 +31,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Angebot</h1>
+				<h1 class="page-header"><?php echo $page_title ?></h1>
 				<ol class="breadcrumb">
 					<li><a href="index.php">Startseite</a></li>
-					<li class="active">Angebot</li>
+					<li class="active"><?php echo $page_title ?></li>
 				</ol>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="page-header">Service Tabs</h2>
-			</div>
 			<div class="col-lg-12">
 
 				<ul id="myTab" class="nav nav-tabs nav-justified">
@@ -82,13 +82,9 @@
 		</div>
 
 		<!-- Footer -->
-		<footer>
-			<div class="row">
-				<div class="col-lg-12">
-					<p>Copyright &copy; Your Website 2014</p>
-				</div>
-			</div>
-		</footer>
+		<?php
+			require_once 'includes/footer.php';
+		?>
 
 	</div>
 	<!-- /.container -->

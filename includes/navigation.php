@@ -14,11 +14,33 @@
 		<div class="collapse navbar-collapse"
 			id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="services.php">Angebot</a></li>
-				<li><a href="location.php">Lageplan</a></li>
-				<li><a href="team.php">Team</a></li>
-				<li><a href="links.php">Links</a></li>
-				<li><a href="open.php">&Ouml;ffnungszeiten</a></li>
+			<?php 
+			if($page_title == "Angebot") {
+				echo '<li class="active"><a href="services.php">Angebot</a></li>';
+			} else {
+				echo '<li><a href="services.php">Angebot</a></li>';
+			} 
+			if($page_title == "Lageplan"){
+				echo '<li class="active"><a href="location.php">Lageplan</a></li>';
+			} else {
+				echo '<li><a href="location.php">Lageplan</a></li>';
+			}
+			if($page_title == "Team"){
+				echo '<li class="active"><a href="team.php">Team</a></li>';
+			} else {
+				echo '<li><a href="team.php">Team</a></li>';
+			}
+			if($page_title == "Links"){
+				echo '<li class="active"><a href="links.php">Links</a></li>';
+			} else {
+				echo '<li><a href="links.php">Links</a></li>';
+			}
+			if($page_title == "&Ouml;ffnungszeiten") {
+				echo '<li class="active"><a href="openingtimes.php">&Ouml;ffnungszeiten</a></li>';
+			} else {
+				echo '<li><a href="openingtimes.php">&Ouml;ffnungszeiten</a></li>';				
+			}				
+				?>
 			</ul>
 		</div>
 		<!-- /.navbar-collapse -->

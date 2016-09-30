@@ -82,7 +82,7 @@
 						<p>Die Arztpraxis liegt an der Brunnenstrasse 38 in Uster. Direkt
 							unter dem Spital Uster. Reservierte Parkpl$tze sind auf dem
 							ehemaligen Areal des Restaurants Schibli.</p>
-						<a href="map.php" class="btn btn-default">Zum Lageplan</a>
+						<a href="location.php" class="btn btn-default">Zum Lageplan</a>
 					</div>
 				</div>
 			</div>
@@ -110,14 +110,7 @@
 				<h2 class="page-header">Konakt</h2>
 			</div>
 			<div class="col-md-6">
-				<h3>Telefon:</h3>
-				<div class="row">
-					<div class="col-md-12">
-						<h4>
-							<i class="fa fa-phone"></i> 044 941 60 20
-						</h4>
-					</div>
-				</div>
+				<h3>&Ouml;ffnungszeiten:</h3>
 				<div class="col-md-12">
 					<h2>
 						<small>Montag, Dienstag, Mittwoch</small>
@@ -129,9 +122,9 @@
 					</p>
 					<p>
 				
-				</div>
+				</p></div>
 				<div class="col-md-6">
-					<p>08:00 - 12:00 h</p>
+					<p>07:00 - 12:00 h</p>
 
 				</div>
 				<div class="col-md-6">
@@ -140,9 +133,9 @@
 					</p>
 					<p>
 				
-				</div>
+				</p></div>
 				<div class="col-md-6">
-					<p>14:00 - 18:00 h</p>
+					<p>13:00 - 18:00 h</p>
 
 				</div>
 				<div class="col-md-12">
@@ -156,7 +149,7 @@
 					</p>
 					<p>
 				
-				</div>
+				</p></div>
 				<div class="col-md-6">
 					<p>08:00 - 12:00 h</p>
 
@@ -167,7 +160,7 @@
 					</p>
 					<p>
 				
-				</div>
+				</p></div>
 				<div class="col-md-6">
 					<p>geschlossen</p>
 
@@ -183,7 +176,7 @@
 					</p>
 					<p>
 				
-				</div>
+				</p></div>
 				<div class="col-md-6">
 					<p>07:00 - 12:00 h</p>
 
@@ -194,69 +187,27 @@
 					</p>
 					<p>
 				
-				</div>
+				</p></div>
 				<div class="col-md-6">
 					<p>14:00 - 16:00 h</p>
 
 				</div>
+				<div class="col-md-12">
+				<h3>Telefonzeiten:</h3>
+				<h4><i class="fa fa-phone"></i> 044 941 60 20<br/><br/>
+				<a href="openingtimes.php" title="Telefonzeiten Link">Finden Sie hier</a></h4>
+					
+				</div>				
 			</div>
 			<div class="col-md-6">
 				<img class="img-responsive" src="http://placehold.it/700x450" alt="">
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<h3>Schicken Sie uns eine Nachricht</h3>
-				<form name="sentMessage" id="contactForm" novalidate>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Vor- und Nachname: *</label> <input type="text"
-								class="form-control" id="name" required
-								data-validation-required-message="Bitte den Vor- und Nachnamen eingeben.">
-							<p class="help-block"></p>
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Telefonnummer:</label> <input type="tel"
-								class="form-control" id="phone">
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Email: *</label> <input type="email" class="form-control"
-								id="email" required
-								data-validation-required-message="Bitte Email Adresse eingeben.">
-						</div>
-					</div>
-					<div class="control-group form-group">
-						<div class="controls">
-							<label>Nachricht: <small>(max 1500 Zeichen)</small> *
-							</label>
-							<textarea rows="10" cols="100" class="form-control" id="message"
-								required
-								data-validation-required-message="Bitte eine Nachricht eingeben."
-								maxlength="1500" style="resize: none"></textarea>
-						</div>
-					</div>
-					<p>Mit * markierte Felder sind Pflichtfelder.</p>
-					<div id="success"></div>
-					<!-- For success/fail messages -->
-
-					<button type="submit" class="btn btn-primary">Nachricht senden</button>
-				</form>
-			</div>
-
-		</div>
 		<!-- /.row -->
 		<!-- Footer -->
-		<footer>
-			<div class="row">
-				<div class="col-lg-12">
-					<p>Copyright &copy; Your Website 2014</p>
-				</div>
-			</div>
-		</footer>
+		<?php
+			require_once 'includes/footer.php';
+		?>
 
 	</div>
 	<!-- /.container -->

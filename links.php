@@ -1,5 +1,5 @@
 <?php 
-$page_title = "Lageplan";
+$page_title = "Links";
 ?>
 <!DOCTYPE html>
 <html lang="de">
@@ -21,6 +21,8 @@ $page_title = "Lageplan";
 <!-- Custom Fonts -->
 <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet"
 	type="text/css">
+<!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body>
@@ -39,15 +41,10 @@ $page_title = "Lageplan";
 			</div>
 		</div>
 
-		<div class="row load">
-			<div class="col-md-4">
-				<h1>Details</h1>
-				<p><i class="fa fa-map-marker"></i> Direkt unter dem Spital Uster, 10 min. vom Bahnhof.</p>
-				<p><i class="fa fa-car"></i> Reservierte Parkpl&auml;tze auf dem ehemaligen Areal des Restaurants Schibli.</p>
-				<p><i class="fa fa-bus"></i> Bushaltestelle: Uster, Spital, 2 min.</p>
-			</div>
-			<div class="col-md-8">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d675.7573273334241!2d8.722543782543987!3d47.3528257314798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479aa4a9d9762e9b%3A0x8f7736cf4bdfc95e!2sDr.+med.+Dieter+Witzig!5e0!3m2!1sde!2sch!4v1456246706309" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="row">
+			<div class="col-md-12">
+				<p>Spital Uster</p>
+				<a href="http://www.spitaluster.ch/" alt="Spital Uster" title="Spital Uster Webpage" target="_blank">Zur Webseite <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 			</div>
 		</div>
 
@@ -71,10 +68,7 @@ $page_title = "Lageplan";
     $('.carousel').carousel({
         interval: 5000 //changes the speed
     })
-
     </script>
-
-	
 
 </body>
 
